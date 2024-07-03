@@ -24,7 +24,7 @@
 
 			-->
 
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdramosrojas?serverTimezone=UTC" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdramosrojascl3?serverTimezone=UTC" />
 
 			<property name="javax.persistence.jdbc.user" value="root" />
 

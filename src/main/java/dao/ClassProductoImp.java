@@ -54,4 +54,14 @@ public class ClassProductoImp implements IProducto{
 		return listadoproductos;
 	}
 
+	public TblProductocl3 BuscarProducto(TblProductocl3 producto) {
+		EntityManagerFactory fabr = Persistence.createEntityManagerFactory("LPII_CL3_RamosRojasAnthony");
+		EntityManager em = fabr.createEntityManager();
+		em.getTransaction().begin();
+		TblProductocl3 busuario = em.find(TblProductocl3.class, producto.getIdproductocl3());
+		em.getTransaction().commit();
+		em.close();
+		return busuario;
+	}
+
 }

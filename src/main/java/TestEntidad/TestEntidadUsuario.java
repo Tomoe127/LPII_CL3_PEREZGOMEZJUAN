@@ -11,8 +11,8 @@ public class TestEntidadUsuario {
 		TblUsuariocl3 usuario = new TblUsuariocl3();
 		ClassUsuarioImp crud = new ClassUsuarioImp();
 		
-		usuario.setUsuariocl3("maria");
-		usuario.setPasswordcl3("arevalo");
+		usuario.setUsuariocl3("gato");
+		usuario.setPasswordcl3("gato");
 		crud.RegistrarUsuario(usuario);
 	}
 
